@@ -8,7 +8,9 @@ end
 
 def valid_move?(board,index)
   if board[index] == " "
-    true 
+    true
+  else
+    false
   end 
 end
 
@@ -16,7 +18,7 @@ def move(board,index,char="X")
   board[index] = char
 end
 
-def input_to_index(board,index)
+def input_to_index(index)
   index=index.to_i - 1 
 end 
 
