@@ -31,7 +31,8 @@ def turn(board)
       move(board,num)
       display_board(board)
       break
-  else
+    else
     turn(board)
+    end
   end
 end
