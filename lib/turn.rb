@@ -16,5 +16,9 @@ def move(board,index,char="X")
   board[index] = char
 end
 
+def input_to_index(board,index)
+  index=index.to_i - 1 
+end 
+
 def turn
 
